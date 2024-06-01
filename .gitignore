@@ -1,0 +1,64 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+
+# Build directories
+/build/*
+!/build/.gitignore
+/out/
+
+# IDE-specific files (optional, if using specific IDEs)
+# Visual Studio Code
+.vscode/
+# CLion
+.idea/
+*.iml
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.cproject
+*.project
+.idea/
+*.pro.user.*
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+*.stackdump
+*.pdb
+
+# Other generated files
+*.log
+*.cache
+*.tmp
+*.swp
