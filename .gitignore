@@ -25,6 +25,7 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 CMakeLists.txt.user
+compile_commands.json
 
 # Build directories
 /build/*

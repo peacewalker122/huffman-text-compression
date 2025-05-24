@@ -226,3 +226,9 @@ std::map<char, long long> HuffmanCoding::readHeader(std::ifstream &inputFile) {
 
   return frequencies;
 }
+
+void swap(std::vector<int> &arr, int i, int j) {
+  arr[i] ^= arr[j];
+  arr[j] ^= arr[i];
+  arr[i] ^= arr[j];
+}
